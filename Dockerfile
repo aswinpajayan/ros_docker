@@ -27,7 +27,7 @@ RUN apt install software-properties-common -y
 RUN add-apt-repository ppa:neovim-ppa/unstable -y
 RUN apt-get update &&  apt-get install -q -y neovim
 
-RUN apt-get install ros-kinetic-turtlebot-* -y
+
 
 EXPOSE 11345
 CMD [ "bash" ]
