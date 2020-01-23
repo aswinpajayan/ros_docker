@@ -10,8 +10,12 @@ On that directory open a terminal and build docker
 Launch the container using `./launch.sh`
 
 
-Launch file binds the container file system to host file system using bind command and etc/passed file. All the users of the 
-Host system will be available in container as well
-Use command `su - <username>` in the containers terminal before creating files so that the files will be created in users home directory in the host system
+Launch file binds the container file system to host 
+file system using bind command and etc/passed file.
+ All the users of the host system will be available
+ in container as well
+Use command `su - <username>` in the containers terminal 
+before creating files so that the files will be created 
+in users home directory in the host system
 
 
