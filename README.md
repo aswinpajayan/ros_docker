@@ -19,3 +19,6 @@ before creating files so that the files will be created
 in users home directory in the host system
 
 
+`source /opt/ros/kinetic/setup.bash`  and start tinkering
+
+
